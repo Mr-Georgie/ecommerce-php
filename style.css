@@ -1,0 +1,137 @@
+body{
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333333;
+  background: #f0f0f0;
+  overflow-x: hidden;
+}
+@font-face { font-family: BioSans; font-style: normal; src: url('fonts/Flat-it - BioSans-Regular.otf'); }
+@font-face { font-family: BioSans-SemiBold; font-style: Bold; src: url('fonts/Flat-it - BioSans-SemiBold.otf'); }
+@font-face { font-family: BioSans-Light; src: url('fonts/Flat-it - BioSans-Light.otf'); }
+      body {
+         font-family: BioSans, sans-serif;
+      }
+
+/****/
+.navbar ul.nav > li > a:hover {
+  background: black;
+}
+.navbar .nav-item:hover{
+  background: black;
+}
+
+/****/
+.sidebar-menu .list-group .list-group-item:hover{
+  background: rgb(16, 123, 253);
+  color: white;
+}
+
+/****/
+#banner {
+  text-align: center;
+  margin-top: 15px;
+}
+#banner .card{
+  margin: 0 0 30px;
+  padding: 20px;
+  border-radius: 0;
+}
+#banner .card .icon {
+  position: absolute;
+  font-size: 120px;
+  width: 100%;
+  text-align: center;
+  top: auto;
+  left: 0;
+  height: 100%;
+  float: left;
+  color: #dadada;
+  box-sizing: border-box;
+  z-index: 1;
+}
+#banner .card h3 {
+  position: relative;
+  margin: 0 0 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  z-index: 2;
+}
+#banner .card h3 span{
+  color: #4fbfa8;
+}
+#banner .card p{
+  position: relative;
+  z-index: 2;
+  color: #555555;
+}
+
+/****/
+#latest{
+  margin: ;
+  background-color: white;
+}
+#latest h2{
+  font-size: 36px;
+  font-weight: 400;
+}
+#latest hr{
+  background: red;
+  width: 120px;
+  height: 2px;
+}
+
+/** store-front **/
+#store-front{
+  padding-left: 25px;
+}
+#store-front .card{
+  border-radius: 0;
+  padding: 20px;
+}
+#store-front .card img {
+  height: 250px;
+  width: 100%;
+}
+#store-front .card img:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier*/
+}
+#store-front .card .body .button {
+  text-align: center;
+}
+
+
+/**===== buttons ====**/
+.btn {
+  border-radius: 0;
+}
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active{
+  color: white;
+  background: rgb(50,50,50);
+}
+.btn-warning:hover, .btn-warning:focus, .btn-warning:active{
+  color: white;
+  background: rgb(50,50,50);
+}
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-primary:hover{
+  color: ;
+  background: rgb(50,50,50);
+}
+
+/****/
+.card{
+  padding: 2px;
+  border-radius: 0;
+}
+
+/****/
+.sidebar-menu .card{
+  padding: 20px;
+  border-radius: 0;
+}
+
+/****/
+.contact-box .card{
+
+}
+/****/
